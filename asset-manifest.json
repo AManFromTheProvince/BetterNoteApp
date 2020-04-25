@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/AManFromTheProvince/BetterNoteApp/static/css/main.5de7f335.chunk.css",
-    "main.js": "/AManFromTheProvince/BetterNoteApp/static/js/main.ae8db034.chunk.js",
-    "main.js.map": "/AManFromTheProvince/BetterNoteApp/static/js/main.ae8db034.chunk.js.map",
-    "runtime-main.js": "/AManFromTheProvince/BetterNoteApp/static/js/runtime-main.175a014e.js",
-    "runtime-main.js.map": "/AManFromTheProvince/BetterNoteApp/static/js/runtime-main.175a014e.js.map",
-    "static/js/2.b56ce3a6.chunk.js": "/AManFromTheProvince/BetterNoteApp/static/js/2.b56ce3a6.chunk.js",
-    "static/js/2.b56ce3a6.chunk.js.map": "/AManFromTheProvince/BetterNoteApp/static/js/2.b56ce3a6.chunk.js.map",
-    "index.html": "/AManFromTheProvince/BetterNoteApp/index.html",
-    "precache-manifest.e87dd439cf76a72a5d96f9dcfc8ffc2a.js": "/AManFromTheProvince/BetterNoteApp/precache-manifest.e87dd439cf76a72a5d96f9dcfc8ffc2a.js",
-    "service-worker.js": "/AManFromTheProvince/BetterNoteApp/service-worker.js",
-    "static/css/main.5de7f335.chunk.css.map": "/AManFromTheProvince/BetterNoteApp/static/css/main.5de7f335.chunk.css.map",
-    "static/js/2.b56ce3a6.chunk.js.LICENSE.txt": "/AManFromTheProvince/BetterNoteApp/static/js/2.b56ce3a6.chunk.js.LICENSE.txt"
+    "main.css": "/BetterNoteApp/static/css/main.5de7f335.chunk.css",
+    "main.js": "/BetterNoteApp/static/js/main.e57b5f42.chunk.js",
+    "main.js.map": "/BetterNoteApp/static/js/main.e57b5f42.chunk.js.map",
+    "runtime-main.js": "/BetterNoteApp/static/js/runtime-main.59049515.js",
+    "runtime-main.js.map": "/BetterNoteApp/static/js/runtime-main.59049515.js.map",
+    "static/js/2.b56ce3a6.chunk.js": "/BetterNoteApp/static/js/2.b56ce3a6.chunk.js",
+    "static/js/2.b56ce3a6.chunk.js.map": "/BetterNoteApp/static/js/2.b56ce3a6.chunk.js.map",
+    "index.html": "/BetterNoteApp/index.html",
+    "precache-manifest.a5588c9d3c120a6dd378f29b2b6b5c47.js": "/BetterNoteApp/precache-manifest.a5588c9d3c120a6dd378f29b2b6b5c47.js",
+    "service-worker.js": "/BetterNoteApp/service-worker.js",
+    "static/css/main.5de7f335.chunk.css.map": "/BetterNoteApp/static/css/main.5de7f335.chunk.css.map",
+    "static/js/2.b56ce3a6.chunk.js.LICENSE.txt": "/BetterNoteApp/static/js/2.b56ce3a6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.175a014e.js",
+    "static/js/runtime-main.59049515.js",
     "static/js/2.b56ce3a6.chunk.js",
     "static/css/main.5de7f335.chunk.css",
-    "static/js/main.ae8db034.chunk.js"
+    "static/js/main.e57b5f42.chunk.js"
   ]
 }
