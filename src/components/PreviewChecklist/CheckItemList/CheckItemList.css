@@ -1,0 +1,10 @@
+.checklist-div{
+    max-height: 380px;
+    overflow-y: auto;
+}
+
+@media screen and (min-width: 700px){
+    div.checklist-div{
+        max-height: 410px;
+    }
+}

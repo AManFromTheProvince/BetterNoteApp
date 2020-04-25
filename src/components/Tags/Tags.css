@@ -1,0 +1,16 @@
+.tag{
+    margin: 0em 0em 0.5em 0.4em;
+    padding: 0em 0.8em;
+    border-radius: 30px;
+}
+
+.tag p{
+    font-size: 0.75em;
+    line-height: 0em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.delete-tag{
+    cursor: pointer;
+}

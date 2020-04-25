@@ -1,0 +1,54 @@
+.status-message{
+    position: fixed;
+    bottom: 1.5em;
+    left: 2em;
+    display: flex;
+    align-items: center;
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+}
+.status-message span{
+    margin-right: 0.5em;
+}
+
+.success{
+    color: #43A047;
+}
+
+.fail{
+    color:#C62828;
+}
+
+.success-message{
+    background-color: #A5D6A7;
+    border: 2px solid #4CAF50;
+}
+
+.fail-message{
+    background-color: #E57373;
+    border: 2px solid #C62828;
+}
+
+.open{
+    animation-name: open-message;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes open-message{
+    0%{
+        transform: translateY(200%);
+    }
+
+    20%{
+        transform: translateY(0%);
+    }
+
+    80%{
+        transform: translateY(0%);
+    }
+
+    100%{
+        transform: translateY(200%);
+    }
+}

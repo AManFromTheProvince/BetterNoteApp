@@ -1,0 +1,175 @@
+
+.preview-note input, .preview-note textarea{
+    border: none;
+    background-color: #fbfbfb;
+
+}
+
+.preview-note input{
+    width: 80%;
+    margin-left: 0.7em;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.preview-note textarea{
+    width: 90%;
+    margin-left: 1.5em;
+    height: 67%;
+    font-size: 0.8em;
+    font-family: 'Source Sans Pro', sans-serif;
+    resize: none;
+}
+
+#adjusted{
+    height: 58.4%;
+}
+
+.modified-preview{
+    font-size: 0.8em;
+    margin-left: 1.2em;
+    width: 85%;
+    color: #888888;
+}
+
+.options{
+    /* margin-left: 1em; */
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.options span{
+    margin: 0.5em;
+    cursor: pointer;
+    padding: 0.2em;
+    border-radius: 50%;
+}
+
+.other-options{
+    display: flex;
+}
+
+.edit-tag{
+    display: flex;
+    align-items: center;
+    margin-right:1em;
+}
+
+.edit-tag button{
+    border:none;
+    border-radius: 25px;
+    padding: 0em 1em 0.5em 1em;
+    cursor: pointer;
+    box-shadow: 0px 1px 4px #d1d1d1;
+    font-family: 'Lato', sans-serif;
+}
+
+.edit-tag span{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top:0.25em;
+    right: 0.1em;
+}
+
+.edit-icon{
+    font-size: 20px;
+}
+
+
+.tags{
+    margin-left: 0.5em;
+    display: flex;
+
+    /* width: 80%; */
+}
+
+#tag-input{
+    font-size: 0.8em;
+    background-color: #ebeff3;
+    border-radius: 5px;
+    padding: 0.5em;
+    width: 85%;
+    margin: 0em 0em 1em 1.4em;
+    transition: 1s;
+    font-weight: 100;
+}
+
+#tag-input:focus{
+    background-color: #fbfbfb;
+    box-shadow: 0px 1px 4px #d1d1d1;
+}
+
+#tag-input::placeholder{
+    color: #888888;
+}
+
+@media screen and (min-width: 600px){
+
+    div.preview-note{
+        height: 85%;
+        overflow: hidden;
+    }
+
+    div.preview-note input{
+        width: 90%;
+    }
+
+    div.preview-note textarea{
+        width: 95%;
+    }
+
+    div.preview-note input{
+        margin-left: 0.5em;
+        font-size: 2em;
+    }
+
+
+    div.preview-note textarea{
+        font-size: 1em;
+        margin-left: 1.15em;
+        height:68%;
+    }
+
+    div.preview-note{
+        left: 25%;
+        top: 10%;
+        width: 50%;
+    }
+
+    div.edit-tag button{
+        border:none;
+        padding: 0em 2em 0.75em 2em;
+    }
+
+    input#tag-input{
+        width: 92.5%;
+    }
+
+    textarea#adjusted{
+        height: 60.3%;
+    }
+
+    span.edit-icon{
+        font-size: 24px;
+    }
+    
+}
+
+.animate-preview-note{
+    animation-name: prev-anim;
+    animation-duration: 1s;
+}
+
+@keyframes prev-anim{
+    0%{
+        transform: translateY(-100%);
+    }
+
+    100%{
+        transform: translateY(0%);
+    }
+}

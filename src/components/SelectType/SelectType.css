@@ -1,0 +1,10 @@
+#active-tab{
+    border-bottom: 3px solid #df5f6a;
+    color: #df5f6a;
+}
+
+@media screen and (min-width: 600px){
+    h5{
+        font-size: 1em;
+    }
+}

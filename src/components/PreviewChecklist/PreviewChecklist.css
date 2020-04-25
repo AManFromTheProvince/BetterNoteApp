@@ -1,0 +1,20 @@
+.title-checklist{
+    display: flex;
+}
+
+.title-checklist span{
+    position: relative;
+    left: 0.2em;
+    cursor: pointer;
+    padding: 0.3em 0.3em;
+    border-radius: 50%;
+    height: fit-content;
+}
+
+
+@media screen and (min-width: 760px){
+    div.title-checklist span{
+        left: 0.1em;
+        top: 0.2em;
+    }
+}

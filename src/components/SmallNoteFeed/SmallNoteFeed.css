@@ -1,0 +1,18 @@
+.label-feed{
+    margin-left: 0.6em;
+    color: #888888;
+}
+.notes-feed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    width: 100%;
+}
+
+@media screen and (min-width: 763px){
+    div.notes-feed{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
