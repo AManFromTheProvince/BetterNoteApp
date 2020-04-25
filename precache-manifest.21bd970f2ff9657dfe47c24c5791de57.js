@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f5a82b40e5c64b21fca311fbc6ff500",
+    "revision": "69e5c1a4ccdf203a08c567d16ad1c0cc",
     "url": "/BetterNoteApp/index.html"
   },
   {
-    "revision": "d2fc84a11b93965c2f65",
+    "revision": "8a4ce8b8aa7a1553ab01",
     "url": "/BetterNoteApp/static/css/main.5de7f335.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BetterNoteApp/static/js/2.b56ce3a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d2fc84a11b93965c2f65",
-    "url": "/BetterNoteApp/static/js/main.e57b5f42.chunk.js"
+    "revision": "8a4ce8b8aa7a1553ab01",
+    "url": "/BetterNoteApp/static/js/main.bfd810b3.chunk.js"
   },
   {
     "revision": "084bb04ac77e7af86b4e",

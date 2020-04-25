@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BetterNoteApp/precache-manifest.a5588c9d3c120a6dd378f29b2b6b5c47.js"
+  "/BetterNoteApp/precache-manifest.21bd970f2ff9657dfe47c24c5791de57.js"
 );
 
 self.addEventListener('message', (event) => {
